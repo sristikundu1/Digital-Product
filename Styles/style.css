@@ -49,3 +49,26 @@ li{
     width: 290px;
     height: 290px;
 }
+.about{
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-bottom: 25px;
+}
+.about-paragraph{
+    margin: 20px 0px;
+}
+
+.conttact{
+    border-radius: 2px;
+    width: 135px;
+}
+.about-imag{
+    width: 290px;
+    height: 290px;
+}
