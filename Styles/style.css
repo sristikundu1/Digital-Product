@@ -1,41 +1,48 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     padding: 25px 0px;
     background-color: rgb(58, 57, 57);
     color: white;
 }
-.logo{
+
+.logo {
     width: 100px;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
 }
-li{
+
+li {
     margin-right: 20px;
 }
-.banner-container{
+
+.banner-container {
     height: 100vh;
     color: white;
     background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url("/assests/images/background.png"),linear-gradient(45deg,#000000, #2D3436);
+    background-image: url("/assests/images/background.png"), linear-gradient(45deg, #000000, #2D3436);
 }
-.banner-title{
+
+.banner-title {
     font-size: 60px;
 }
-.banner-paragrapg{
+
+.banner-paragrapg {
     margin: 15px 0px;
 }
-.btn{
+
+.btn {
     width: 120px;
     height: 40px;
     font-size: 13px;
@@ -45,30 +52,79 @@ li{
     border: none;
     margin-top: 10px;
 }
-.banner-img{
+
+.banner-img {
     width: 290px;
     height: 290px;
 }
-.about{
+
+.about {
     font-size: 60px;
     text-align: center;
     margin: 20px 0px;
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
     margin-bottom: 25px;
 }
-.about-paragraph{
+
+.about-paragraph {
     margin: 20px 0px;
 }
 
-.conttact{
+.conttact {
     border-radius: 2px;
     width: 135px;
 }
-.about-imag{
+
+.about-imag {
     width: 290px;
     height: 290px;
+}
+
+.service-container {
+    background-color: black;
+    color: white;
+    background-image: url("/assests/images/background.png");
+}
+
+.about {
+    padding-top: 50px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.card {
+    text-align: center;
+    width: 210px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 4px 4px 15px gray; */
+    box-shadow: 15px 15px 95px 0px #353434, -15px -15px 95px 0px #353434;
+}
+
+.card-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.card-paragraph{
+    margin: 15px 0px;
+}
+
+.detail-btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #1b1e1f;
+    color: white;
 }
